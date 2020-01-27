@@ -1,0 +1,11 @@
+sudo: required
+jobs:
+  include:
+  - stage: Robot Tests
+    services:
+    - xvfb
+    os:
+    - linux
+    language: python
+    python:
+    - '2.7'
