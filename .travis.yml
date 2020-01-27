@@ -1,3 +1,5 @@
 language: python
 install:
  - pip install -U scikit-learn
+script:
+ - travis_script.sh
