@@ -1,0 +1,6 @@
+sudo: required
+language: python
+install:
+ - pip install -U scikit-learn
+script:
+ - "echo done"
